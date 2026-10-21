@@ -1,0 +1,10 @@
+{
+  "listen": ":8080",
+  "default_strategy": "round_robin",
+  "health_check_interval": "5s",
+  "servers": [
+    { "name": "server-1-8001", "host": "127.0.0.1", "port": 8001, "weight": 5, "cpu_cores": 8, "ram_gb": 16 },
+    { "name": "server-2-8002", "host": "127.0.0.1", "port": 8002, "weight": 3, "cpu_cores": 4, "ram_gb": 8 },
+    { "name": "server-3-8003", "host": "127.0.0.1", "port": 8003, "weight": 1, "cpu_cores": 2, "ram_gb": 4 }
+  ]
+}
