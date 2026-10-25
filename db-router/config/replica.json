@@ -1,0 +1,9 @@
+{
+  "listen": ":7070",
+  "mode": "replica",
+  "primary": { "name": "primary-9001", "addr": "127.0.0.1:9001" },
+  "replicas": [
+    { "name": "replica-1-9002", "addr": "127.0.0.1:9002" },
+    { "name": "replica-2-9003", "addr": "127.0.0.1:9003" }
+  ]
+}

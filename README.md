@@ -7,6 +7,7 @@ Module: `github.com/SanjayM-2002/reverse-proxy-scratch` (single module, one pack
 | Project | What it is |
 | --- | --- |
 | [load-balancer](load-balancer/) | L4 TCP load balancer: round robin, weighted round robin, least connections |
+| [db-router](db-router/) | DB reverse proxy: read/write splitting across replicas, sharding (modulo / consistent hashing) |
 
 Each project follows the same layout:
 

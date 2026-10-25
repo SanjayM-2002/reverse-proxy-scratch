@@ -1,0 +1,10 @@
+{
+  "listen": ":7070",
+  "mode": "sharded",
+  "hashing": "consistent",
+  "shards": [
+    { "name": "shard-0-9101", "addr": "127.0.0.1:9101" },
+    { "name": "shard-1-9102", "addr": "127.0.0.1:9102" },
+    { "name": "shard-2-9103", "addr": "127.0.0.1:9103" }
+  ]
+}
